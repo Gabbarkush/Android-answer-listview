@@ -7,6 +7,11 @@ import java.util.*
 
 
 class MoviesModelBean {
+
+    @SerializedName("dates")
+    @Expose
+    var dates: MoviesDateModel? = null
+
     @SerializedName("page")
     @Expose
     var page: Int? = null
