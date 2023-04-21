@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="circularProgress">
+        <item name="colorAccent">@color/base_orange</item>
+    </style>
+    <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+</resources>
